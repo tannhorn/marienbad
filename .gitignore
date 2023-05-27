@@ -1,5 +1,5 @@
 # local settings
-pawn_move_evaluation/data_path.json
+pawn_move_evaluation/*.json
 
 # VS code
 .vscode/
