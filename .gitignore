@@ -1,3 +1,13 @@
+# local settings
+pawn_move_evaluation/data_path.json
+
+# VS code
+.vscode/
+
+# chess data files
+*.pgn
+*.pgn.zst
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
