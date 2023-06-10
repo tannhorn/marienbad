@@ -19,7 +19,8 @@ else:
   starting_rank = 1 # rank number is flipped!
   starting_rank_correction = -0.25
 
-move_number_range = (1,1e5)
+move_number_range = (2,10)
+name = color+f"_{move_number_range[0]}_{move_number_range[1]}"
 
 # -- synthetise data
 results = {key: None for key in data[color]['acc']}
@@ -104,4 +105,5 @@ for key in results:
     ax.add_patch(rect)
     ax.text(fr_sq_x,fr_sq_y, format(results[key], f".{digits}f"), ha='center', va='center', fontsize=14,color=sm_r.to_rgba(results[key]))
 
+plt.savefig(name+".png")
 plt.show()
