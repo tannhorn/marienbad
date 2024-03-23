@@ -1,0 +1,5 @@
+% tag file for pgn extract
+Event "Rated Rapid game"
+Event "Rated Classical game"
+WhiteElo >= "2000"
+BlackElo >= "2000"

@@ -1,8 +1,9 @@
 # local settings
-pawn_move_evaluation/*.json
+*.json
 
 # results
 *.png
+*.csv
 
 # VS code
 .vscode/
